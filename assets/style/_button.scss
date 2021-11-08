@@ -1,0 +1,37 @@
+.load-more-btn {
+    display: block;
+    margin: auto;
+    cursor: pointer;
+    padding: 5px 10px;
+    border: 1px solid #9a9a9a;
+    color: #626262;
+    background: transparent;
+    border-radius: 4px;
+}
+
+#dark-btn {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    background: #ccc;
+    width: 45px;
+    border-radius: 15px;
+    padding: 2px 3px;
+    cursor: pointer;
+    display: flex;
+    transition: padding-left 0.5s, background 0.5s;
+
+    span {
+        width: 18px;
+        height: 18px;
+        background: #fff;
+        border-radius: 50%;
+        display: inline-block;
+    }
+}
+
+#dark-btn.dark-btn-on {
+    padding-left: 23px;
+    background: #0a0a0a;
+
+}

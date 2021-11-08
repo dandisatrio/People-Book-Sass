@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>People's Book | Bambang Satrio Gandhi</title>
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="assets/style/main.css" type="text/css" />
+
+    <!-- Font Awasome -->
+    <script
+      src="https://kit.fontawesome.com/4de11082bc.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+
+  <body>
+    <nav>
+      <div class="nav-left">
+        <img src="assets/images/logo.png" class="logo" />
+        <ul>
+          <li><img src="assets/images/notification.png" /></li>
+          <li><img src="assets/images/inbox.png" /></li>
+          <li><img src="assets/images/video.png" /></li>
+        </ul>
+      </div>
+      <div class="nav-right">
+        <div class="search-box">
+          <img src="assets/images/search.png" />
+          <input type="text" placeholder="Search" />
+        </div>
+        <div class="nav-user-icon online" onclick="settingsMenuToggle()">
+          <img src="assets/images/profile-pic.png" />
+        </div>
+      </div>
+
+      <div class="settings-menu">
+        <div id="dark-btn" class="dark-btn-on">
+          <span></span>
+        </div>
+
+        <div class="settings-menu-inner">
+          <div class="user-profile">
+            <img src="assets/images/profile-pic.png" />
+            <div>
+              <p>John Nicholson</p>
+              <a href="#">See your profile</a>
+            </div>
+          </div>
+          <hr>
+          <div class="user-profile">
+            <img src="assets/images/feedback.png" />
+            <div>
+              <p>Give Feedback</p>
+              <a href="#">Help us to improve the new design</a>
+            </div>
+          </div>
+          <hr>
+
+          <div class="settings-links">
+            <img src="assets/images/setting.png" class="settings-icon">
+            <a href="#">Settings & Privacy <img src="assets/images/arrow.png" width="10px"></a>
+          </div>
+          <div class="settings-links">
+            <img src="assets/images/help.png" class="settings-icon">
+            <a href="#">Help & Support <img src="assets/images/arrow.png" width="10px"></a>
+          </div>
+          <div class="settings-links">
+            <img src="assets/images/display.png" class="settings-icon">
+            <a href="#">Display & Accesibility <img src="assets/images/arrow.png" width="10px"></a>
+          </div>
+          <div class="settings-links">
+            <img src="assets/images/logout.png" class="settings-icon">
+            <a href="#">Logout <img src="assets/images/arrow.png" width="10px"></a>
+          </div>
+        </div>
+        
+      </div>
+    </nav>
+
+    <div class="container">
+      <!-- left sidebar -->
+      <div class="left-sidebar">
+        <div class="imp-links">
+          <a href="#"><img src="assets/images/news.png" /> Latest News</a>
+          <a href="#"><img src="assets/images/friends.png" /> Friends</a>
+          <a href="#"><img src="assets/images/group.png" /> Group</a>
+          <a href="#"
+            ><img src="assets/images/marketplace.png" /> Marketplace</a
+          >
+          <a href="#"><img src="assets/images/watch.png" /> Watch</a>
+          <a href="#">See More</a>
+        </div>
+        <div class="shortcut-links">
+          <p>Your Shortcuts</p>
+          <a href="#"
+            ><img src="assets/images/shortcut-1.png" /> Web Developer</a
+          >
+          <a href="#"
+            ><img src="assets/images/shortcut-2.png" /> Web Design Course</a
+          >
+          <a href="#"
+            ><img src="assets/images/shortcut-3.png" /> Full Stack Developer</a
+          >
+          <a href="#"
+            ><img src="assets/images/shortcut-4.png" /> Website Experts</a
+          >
+        </div>
+      </div>
+
+      <!-- main content -->
+      <div class="main-content">
+        <div class="story-gallery">
+          <div class="story story1">
+            <img src="assets/images/upload.png" />
+            <p>Post Story</p>
+          </div>
+          <div class="story story2">
+            <img src="assets/images/member-1.png" />
+            <p>Alison</p>
+          </div>
+          <div class="story story3">
+            <img src="assets/images/member-2.png" />
+            <p>Jackson</p>
+          </div>
+          <div class="story story4">
+            <img src="assets/images/member-3.png" />
+            <p>Samona</p>
+          </div>
+          <div class="story story5">
+            <img src="assets/images/member-4.png" />
+            <p>John Doe</p>
+          </div>
+        </div>
+
+        <div class="write-post-container">
+          <div class="user-profile">
+            <img src="assets/images/profile-pic.png" />
+            <div>
+              <p>John Nicholson</p>
+              <small>Public <i class="fas fa-caret-down"></i></small>
+            </div>
+          </div>
+
+          <div class="post-input-container">
+            <textarea
+              rows="3"
+              placeholder="What's on your mind, John ?"
+            ></textarea>
+            <div class="add-post-links">
+              <a href="#"
+                ><img src="assets/images/live-video.png" /> Live Video</a
+              >
+              <a href="#"><img src="assets/images/photo.png" /> Photo/Video</a>
+              <a href="#"
+                ><img src="assets/images/feeling.png" /> Feeling/Activity</a
+              >
+            </div>
+          </div>
+        </div>
+
+        <div class="post-container">
+          <div class="post-row">
+            <div class="user-profile">
+              <img src="assets/images/profile-pic.png" />
+              <div>
+                <p>John Nicholson</p>
+                <span>June 24 2021, 13:40 pm</span>
+              </div>
+            </div>
+            <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+          </div>          
+          <p class="post-text">
+            Subscribe <span>@Dandi Satrio</span> Youtube Channel to watch more
+            videos on website development and UI Design.
+            <a href="#">#YoutubeChannel</a>
+          </p>
+          <img src="assets/images/feed-image-1.png" class="post-img" />
+
+          <div class="post-row">
+            <div class="activity-icons">
+              <div>
+                <img src="assets/images/like-blue.png" />
+                120
+              </div>
+              <div>
+                <img src="assets/images/comments.png" />
+                45
+              </div>
+              <div>
+                <img src="assets/images/share.png" />
+                20
+              </div>
+            </div>
+            <div class="post-profile-icon">
+              <img src="assets/images/profile-pic.png" > <i class="fas fa-caret-down"></i>
+            </div>
+          </div>
+        </div>
+        <div class="post-container">
+          <div class="post-row">
+            <div class="user-profile">
+              <img src="assets/images/profile-pic.png" />
+              <div>
+                <p>John Nicholson</p>
+                <span>June 24 2021, 13:35 pm</span>
+              </div>
+            </div>
+            <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+          </div>          
+          <p class="post-text">
+            Like and Share <span>@Dandi Satrio</span> Youtube Channel to watch more
+            videos on website development and UI Design.
+            <a href="#">#YoutubeChannel</a>
+          </p>
+          <img src="assets/images/feed-image-2.png" class="post-img" />
+
+          <div class="post-row">
+            <div class="activity-icons">
+              <div>
+                <img src="assets/images/like.png" />
+                130
+              </div>
+              <div>
+                <img src="assets/images/comments.png" />
+               50
+              </div>
+              <div>
+                <img src="assets/images/share.png" />
+                10
+              </div>
+            </div>
+            <div class="post-profile-icon">
+              <img src="assets/images/profile-pic.png" > <i class="fas fa-caret-down"></i>
+            </div>
+          </div>
+        </div>
+        <div class="post-container">
+          <div class="post-row">
+            <div class="user-profile">
+              <img src="assets/images/profile-pic.png" />
+              <div>
+                <p>John Nicholson</p>
+                <span>June 24 2021, 13:30 pm</span>
+              </div>
+            </div>
+            <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+          </div>          
+          <p class="post-text">
+            Like and Share <span>@Dandi Satrio</span> Youtube Channel to watch more
+            videos on website development and UI Design.
+            <a href="#">#YoutubeChannel</a>
+          </p>
+          <img src="assets/images/feed-image-3.png" class="post-img" />
+
+          <div class="post-row">
+            <div class="activity-icons">
+              <div>
+                <img src="assets/images/like.png" />
+                130
+              </div>
+              <div>
+                <img src="assets/images/comments.png" />
+               50
+              </div>
+              <div>
+                <img src="assets/images/share.png" />
+                10
+              </div>
+            </div>
+            <div class="post-profile-icon">
+              <img src="assets/images/profile-pic.png" > <i class="fas fa-caret-down"></i>
+            </div>
+          </div>
+        </div>
+        <div class="post-container">
+          <div class="post-row">
+            <div class="user-profile">
+              <img src="assets/images/profile-pic.png" />
+              <div>
+                <p>John Nicholson</p>
+                <span>June 24 2021, 13:25 pm</span>
+              </div>
+            </div>
+            <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+          </div>          
+          <p class="post-text">
+            Like and Share <span>@Dandi Satrio</span> Youtube Channel to watch more
+            videos on website development and UI Design.
+            <a href="#">#YoutubeChannel</a>
+          </p>
+          <img src="assets/images/feed-image-4.png" class="post-img" />
+
+          <div class="post-row">
+            <div class="activity-icons">
+              <div>
+                <img src="assets/images/like.png" />
+                130
+              </div>
+              <div>
+                <img src="assets/images/comments.png" />
+               50
+              </div>
+              <div>
+                <img src="assets/images/share.png" />
+                10
+              </div>
+            </div>
+            <div class="post-profile-icon">
+              <img src="assets/images/profile-pic.png" > <i class="fas fa-caret-down"></i>
+            </div>
+          </div>
+        </div>
+        <div class="post-container">
+          <div class="post-row">
+            <div class="user-profile">
+              <img src="assets/images/profile-pic.png" />
+              <div>
+                <p>John Nicholson</p>
+                <span>June 24 2021, 13:20 pm</span>
+              </div>
+            </div>
+            <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+          </div>          
+          <p class="post-text">
+            Like and Share <span>@Dandi Satrio</span> Youtube Channel to watch more
+            videos on website development and UI Design.
+            <a href="#">#YoutubeChannel</a>
+          </p>
+          <img src="assets/images/feed-image-5.png" class="post-img" />
+
+          <div class="post-row">
+            <div class="activity-icons">
+              <div>
+                <img src="assets/images/like.png" />
+                130
+              </div>
+              <div>
+                <img src="assets/images/comments.png" />
+               50
+              </div>
+              <div>
+                <img src="assets/images/share.png" />
+                10
+              </div>
+            </div>
+            <div class="post-profile-icon">
+              <img src="assets/images/profile-pic.png" > <i class="fas fa-caret-down"></i>
+            </div>
+          </div>
+        </div>
+
+        <button type="button" class="load-more-btn">Load More</button>
+      </div>
+
+      <!-- right sidebar -->
+      <div class="right-sidebar">
+        <div class="sidebar-title">
+          <h4>Events</h4>
+          <a href="#">See All</a>
+        </div>
+        <div class="event">
+          <div class="left-event">
+            <h3>18</h3>
+            <span>November</span>
+          </div>
+          <div class="right-event">
+            <h4>Social Media</h4>
+            <p><i class="fas fa-map-marker-alt"></i> Dandi Satrio Tech</p>
+            <a href="#">More Info</a>
+          </div>
+        </div>
+        <div class="event">
+          <div class="left-event">
+            <h3>22</h3>
+            <span>December</span>
+          </div>
+          <div class="right-event">
+            <h4>Web Marketing</h4>
+            <p><i class="fas fa-map-marker-alt"></i> Dandi Satrio Tech</p>
+            <a href="#">More Info</a>
+          </div>
+        </div>
+
+        <div class="sidebar-title">
+          <h4>Advertisement</h4>
+          <a href="#">Close</a>
+        </div>
+        <div class="ads">
+          <img src="assets/images/advertisement.png" />
+        </div>
+
+        <div class="sidebar-title">
+          <h4>Convesation</h4>
+          <a href="#">Hide Chat</a>
+        </div>
+        <div class="online-list">
+          <div class="online">
+            <img src="assets/images/member-1.png" />
+          </div>
+          <p>Alison Mina</p>
+        </div>
+        <div class="online-list">
+          <div class="online">
+            <img src="assets/images/member-2.png" />
+          </div>
+          <p>Jackson Aston</p>
+        </div>
+        <div class="online-list">
+          <div class="online">
+            <img src="assets/images/member-3.png" />
+          </div>
+          <p>Samona Rose</p>
+        </div>
+      </div>
+    </div>
+
+    <footer>
+      <p>Copyright 2021 - Bambang Satrio Gandhi</p>
+    </footer>
+
+    <script src="assets/scripts/script.js"></script>
+
+  </body>
+</html>
