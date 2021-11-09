@@ -1,3 +1,5 @@
+@import "colors";
+
 .online {
   position: relative;
 
@@ -5,7 +7,7 @@
     content: "";
     width: 7px;
     height: 7px;
-    border: 2px solid $white;
+    border: 2px solid #fff;
     border-radius: 50%;
     background: #41db51;
     position: absolute;
@@ -16,7 +18,7 @@
 
 .story1 {
   background-image: linear-gradient(transparent, rgba(0, 0, 0, 0.5)),
-    url(../images/status-1.png);
+    url(../images/member-9.png);
 }
 .story2 {
   background-image: linear-gradient(transparent, rgba(0, 0, 0, 0.5)),
@@ -34,13 +36,18 @@
   background-image: linear-gradient(transparent, rgba(0, 0, 0, 0.5)),
     url(../images/status-5.png);
 }
+.story6 {
+  background-image: linear-gradient(transparent, rgba(0, 0, 0, 0.5)),
+    url(../images/status-1.png);
+}
 
 .user-profile {
     display: flex;
     align-items: center;
+    font-weight: 600;
 
     img {
-      width: 45px;
+      width: 35px;
       border-radius: 50%;
       margin-right: 10px;
     }    
@@ -48,4 +55,30 @@
 
 .settings-menu-height {
   max-height: 450px !important;
+}
+
+.icon-container {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 36px;
+  height: 36px;
+  border-radius: 50px;
+  background: var(--bg-icon);
+}
+
+.links-container {
+  padding: 7px 0 10px 6px;
+  border-radius: 8px;
+
+  &:hover {
+    background: rgba(214, 207, 207, 0.767);
+  }
+}
+
+.sidebar-title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 18px;
 }
